@@ -82,5 +82,5 @@ To see the results one can do a simple line plot in which the actual and predict
 plot(stock_d[nrow(nn_train):nrow(stock_d),1],type="l",ylim=c(100,300),xlab="time",ylab="stock price")
 lines(lstm_actual,type="l",col="red")
 ```
-In This case the predicted stock price is in red color while the actual in black.
+In This case the predicted stock price is in red color while the actual price in black.
 ![Screenshot](Rplot.png)
