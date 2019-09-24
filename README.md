@@ -83,4 +83,4 @@ plot(stock_d[nrow(nn_train):nrow(stock_d),1],type="l",ylim=c(100,300),xlab="time
 lines(lstm_actual,type="l",col="red")
 ```
 In This case the predicted stock price is in red color while the actual in black.
-![alt text](http://url/to/Rplot.png)
+https://github.com/tejinder1988/Predicting-Stock-Price-with-LSTM/blob/master/Rplot.png
