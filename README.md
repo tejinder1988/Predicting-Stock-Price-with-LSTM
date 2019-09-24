@@ -79,7 +79,7 @@ The model is trained in 50 epochs with batch size of 256. The predicted values a
 ```
 To see the results one can do a simple line plot in which the actual and predicted stock price are compared.
 ```{r} 
-plot(stock_d[nrow(nn_train):nrow(stock_d),1],type="l",ylim=c(100,300))
+plot(stock_d[nrow(nn_train):nrow(stock_d),1],type="l",ylim=c(100,300),xlab="time",ylab="stock price")
 lines(lstm_actual,type="l",col="red")
 ```
 In This case the predicted stock price is in red color while the actual in black.
