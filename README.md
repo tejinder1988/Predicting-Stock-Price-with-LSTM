@@ -1,6 +1,4 @@
-# Predicting-Stock-Price-with-LSTM
-Predicting stock price with the help of LSTM of the keras package in R
-
+# Predicting stock price with the help of LSTM of the keras package in R
 
 First we need to load the library. These include the package "tidyquant", "keras" and "rsample". 
 ```{r}
